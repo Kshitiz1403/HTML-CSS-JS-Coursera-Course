@@ -1,0 +1,66 @@
+#header-nav{
+    /* background-color: grey; */
+    border-radius: 0;
+    border-top:solid black ;
+    border-bottom: solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+.Menu h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+
+.chicken{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color: #6c757d;;
+}
+
+section>h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+#list-items{
+    text-align: center;
+    border:2px solid;
+    margin-bottom: 1px;
+
+}
+
+
+
+/* Desktop Devices */
+@media (min-width: 992px){
+
+    section{
+        margin:20px;
+    }
+
+}
+
+/* Tablet Devices */
+
+@media (min-width: 768px) and (max-width: 991px){
+    section{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+}
+
+
+/* Mobile Devices */
+
+@media (max-width:767px){
+    section{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+}
